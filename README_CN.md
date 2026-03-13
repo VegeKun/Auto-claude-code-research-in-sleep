@@ -53,7 +53,7 @@ claude
 - 🖥️ **GPU 部署** — 自动 rsync、screen 会话、多 GPU 并行实验、实时监控
 - 🔀 **灵活模型** — 默认 Claude × GPT-5.4，也支持 [GLM + GPT、GLM + MiniMax](#-替代模型组合)——无需 Claude API
 - 🛑 **Human-in-the-loop** — 关键决策点可配置检查点。`AUTO_PROCEED=true` 全自动，`false` 逐步审批
-- 📱 **[飞书通知](#-飞书lark-集成可选)** — 三种模式：**关闭（默认）**、仅推送（webhook，手机收通知）、双向交互（在飞书里审批/回复）。未配置时零影响
+- 📱 **[飞书通知](#-飞书lark-集成可选)** — 三种模式：**关闭（默认，强烈建议大多数用户保持关闭）**、仅推送（webhook，手机收通知）、双向交互（在飞书里审批/回复）。未配置时零影响
 
   <details>
   <summary>预览：推送卡片（群聊）&amp; 交互对话（私聊）</summary>

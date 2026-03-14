@@ -47,6 +47,8 @@ claude
 > /research-pipeline "your research direction"  # Full pipeline: Workflow 1 → 2 → 3 end-to-end
 ```
 
+> **Tip:** Workflows pause at checkpoints for your approval by default. Add `AUTO_PROCEED=true` to run fully autonomously (great for overnight runs).
+
 See [full setup guide](#%EF%B8%8F-setup) for details and [alternative model combinations](#-alternative-model-combinations) if you don't have Claude/OpenAI API.
 
 ## ✨ Features

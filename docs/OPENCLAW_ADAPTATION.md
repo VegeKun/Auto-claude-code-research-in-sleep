@@ -57,34 +57,3 @@ ARIS 的本质是「科研流程编排」：
 4. **同步机制**：本地文件可同步到飞书文档，便于跨端审阅。  
 5. **升级安全**：修改前先做备份提交，再做正式改动提交。
 
----
-
-## 5. 示例：面向历史与规划类课题
-
-对于非纯 ML 课题（如历史景观、规划设计、数字人文）：
-
-- 仍可使用 ARIS 思路（“问题-证据-验证-复审”）
-- 重点从“模型性能”转为“证据质量 + 机制解释 + 可迁移理法”
-
-建议补充字段：
-
-- `evidence_quote`
-- `evidence_location`
-- `confidence_level`
-- `coding_note`
-
-用于支持后续统计或比较分析。
-
----
-
-## 6. PR 建议说明（给 ARIS 仓库）
-
-可在 README 增加一节：
-
-- 标题：`Using ARIS workflow in OpenClaw (without slash skills)`
-- 内容：
-  - 映射表（/skill → file-based orchestration）
-  - 四阶段最小可跑命令
-  - 非 ML 学科适配建议
-
-这样能帮助更多不使用 Claude Code CLI 的用户接入 ARIS 方法论。
